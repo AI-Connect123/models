@@ -18,3 +18,21 @@ from official.nlp import tasks
 from official.nlp.configs import encoders
 from official.nlp.modeling import *
 from official.nlp.serving import serving_modules
+mport googletrans
+from googletrans import Translator 
+# To detect and translate text
+
+import speech_recognition as sr 
+# To recognize speech
+
+from gtts import gTTS.nlp.modeling import * 
+# Google speech-to-Speech to convert recording audio to audio
+
+import os 
+# To work with files
+import googletrans
+We import the googletrans module.
+print(googletrans.LANGUAGES)
+We print the googletrans.LANGUAGES variable.
+$ languages.py
+{'arabic': 'english', ... }
